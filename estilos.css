@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+
+.displaying {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+body {
+    font-family: 'Old Standard TT', serif;
+    background-image: linear-gradient(to right, #FFF5EB, #fae3cc, #F2DCC7, #FFA552);
+}
+
+header {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+header div {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFF5EB;
+    background-color: #272522;
+    padding: 10px;
+    margin: 20px;
+    width: 1px;
+    height: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #272522;
+    font-weight: bold;
+}
+
+main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+h1 {
+    color: #FFF5EB;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    color: #FFF5EB;
+    background-color: black;
+}
+
+.imagenFondo {
+    background-image: url("../media/onstage.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 584px;
+    border: 1px solid #cccccc;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.text {
+    color: #fae3cc;
+    margin: 100px;
+}
+
+.sectionArticle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imagen1 {
+    background-image: url("../media/tour.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.transform1 {
+    transform: skewX(10deg);
+}
+
+.imagen2 {
+    background-image: url("../media/theboys.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.transform2 {
+    transform: skewX(-10deg);
+}
+
+footer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+footer div {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+footer div a {
+    text-decoration: none;
+    color: #FFF5EB;
+    background-color: #272522;
+}
